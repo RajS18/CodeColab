@@ -1,0 +1,183 @@
+.homePageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 100vh;
+}
+
+.formWrapper {
+  background: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  color: #4aee88;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLabel {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.homePageLogo {
+  height: 100px;
+  margin-bottom: 10px;
+}
+.imageAndText {
+  display: flex;
+}
+.textPart {
+  margin-left: 10px;
+  padding: 20px 30px 30px 30px;
+  text-align: end;
+}
+.mainText {
+  height: 50px;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.mainText strong {
+  color: #26dfe6;
+}
+.secText {
+  font-size: small;
+}
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border:none;
+  width:100%;
+}
+
+.joinBtn,
+.leaveBtn {
+  background: rgb(66, 216, 221);
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinBtn:hover,
+.leaveBtn:hover {
+  background: #2da6aa;
+}
+.copyBtn {
+  background: rgb(33, 228, 147);
+}
+.copyBtn:hover {
+  background: yellowgreen;
+}
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn {
+  color: rgb(66, 216, 221);
+  text-decoration: none;
+  border-bottom: 1px solid rgb(66, 216, 221);
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover,
+footer a:hover {
+  color: #2da6aa;
+  border-color: #2da6af;
+}
+footer h4 span {
+  color: rgb(66, 216, 221);
+}
+.mainWrap {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+}
+
+.aside {
+  background: #1c1e29;
+  padding: 15px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideInner {
+  flex: 1;
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.userName {
+  margin-top: 5px;
+}
+
+.logo {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 5px;
+  display: flex;
+}
+
+.logoImage {
+  height: 60px;
+  padding: 5px;
+}
+.logoText {
+  padding-top: 15px;
+  padding-left: 4px;
+  font-size: 24px;
+}
+.logoText strong {
+  color: #26dfe6;
+}
+.leaveBtn {
+  width: 100%;
+  margin-top: 10px;
+}
+.CodeMirror {
+  min-height: calc(50vh - 20px);
+  font-size: 15px;
+  line-height: 2;
+  padding-top: 20px;
+  padding-left:20px;
+  padding-right: 20px;
+}
